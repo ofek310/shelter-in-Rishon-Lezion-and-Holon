@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailsFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_down"
+    android:clickable="true">
+
+    <TextView
+        android:drawableLeft="@drawable/ic_baseline_location_city_24"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Shelter_details"
+        android:textSize="25sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/text"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        android:id="@+id/liner_text">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_shelter"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/text_name_more_details"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/text_name_more_details"
+                android:layout_alignBaseline="@id/text_name_more_details"
+                android:text="מקלט מס' 1"
+                android:textSize="20sp"
+                android:id="@+id/shelter_name_more_info" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Address"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/text_address_more_details"/>
+
+            <TextView
+                android:id="@+id/shelter_address_more_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/text_address_more_details"
+                android:layout_toEndOf="@id/text_address_more_details"
+                android:textColor="@color/black"
+                android:text="ההסתדרות 131"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/text_city_more_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/City"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/text_city_more_details"
+                android:layout_alignBaseline="@id/text_city_more_details"
+                android:textSize="20sp"
+                android:text="בת ים"
+                android:id="@+id/shelter_city_more_info" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/Accessibility"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/text_accessibility_more_details"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/text_accessibility_more_details"
+                android:layout_alignBaseline="@id/text_accessibility_more_details"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="כן"
+                android:id="@+id/shelter_accessibility_more_info" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/shelter_area"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/text_area_more_details"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/text_area_more_details"
+                android:layout_alignBaseline="@id/text_area_more_details"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="60 מר"
+                android:id="@+id/shelter_area_more_info" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/Number_of_people_in_the_shelter"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/text_count_peoples_more_details"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/text_count_peoples_more_details"
+                android:layout_alignBaseline="@id/text_count_peoples_more_details"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="לא זמין"
+                android:id="@+id/shelter_count_peoples_more_info" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/comment_btn"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/liner_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Comments"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/orangeChose"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

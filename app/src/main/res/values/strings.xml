@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ShelterHolonAndRishonLezion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title">Login</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="email_title">Email</string>
+    <string name="password_title">Password up to 10 characters</string>
+    <string name="name_title">Name</string>
+    <string name="kind_user_title">Kind User</string>
+
+    <string-array name="kind_user">
+        <item>@string/kind_user_start</item>
+        <item>@string/kind_user_1</item>
+        <item>@string/kind_user_2</item>
+        <item>@string/kind_user_3</item>
+    </string-array>
+    <string-array name="city">
+        <item>@string/first_line_city</item>
+        <item>@string/holon_text</item>
+        <item>@string/rishon_lezion_text</item>
+    </string-array>
+    <string name="kind_user_1">update user</string>
+    <string name="kind_user_2">watch user</string>
+    <string name="kind_user_3">admin user</string>
+    <string name="kind_user_start">choose kind user</string>
+    <string name="holon_text">Holon</string>
+    <string name="first_line_city">choose your city</string>
+    <string name="rishon_lezion_text">Rishon Lezion</string>
+    <string name="title_search_area_fragment">Enter the desired area to search selter:</string>
+    <string name="select_a_street">select a street</string>
+    <string name="Current_Location">Current location</string>
+    <string name="obtaining_a_desired_area_map">Obtaining a desired area map</string>
+    <string name="Welcome">Welcome</string>
+    <string name="number_home">number home</string>
+    <string name="Loading_information">Loading information</string>
+    <string name="please_wait">please wait</string>
+    <string name="Logout">Logout</string>
+    <string name="Are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Please_select_one_of_the_following">Please select one of the following:</string>
+    <string name="Enter_an_area_to_search_selter">Enter an area to search shelter</string>
+    <string name="View_user_information">View user informatio</string>
+    <string name="Enter_the_map_of_your_area_of_practice">Enter the map of your area of practice</string>
+    <string name="Approval_user_updates">Approval user updates</string>
+    <string name="Remove_users">Remove users</string>
+    <string name="User_details">User details:</string>
+    <string name="email_user">Email:</string>
+    <string name="Password_user">Password:</string>
+    <string name="Name_user">Name:</string>
+    <string name="User_type">User type:</string>
+    <string name="name_shelter">Name shelter:</string>
+    <string name="Address_shelter">Address shelter:</string>
+    <string name="Click_for_more_details">Click for more details...</string>
+    <string name="The_location_you_requested">The location you requested</string>
+    <string name="Your_location">Your location</string>
+    <string name="Your_location_does_not_match_the_cities_listed_in_the_app">Your location does not match the cities listed in the app</string>
+    <string name="You_did_not_select_an_address">You did not select an address</string>
+    <string name="The_address_is_invalid">The address is invalid</string>
+    <string name="Shelter_details">Shelter details:</string>
+    <string name="Address">Address:</string>
+    <string name="City">City:</string>
+    <string name="Accessibility">Accessibility:</string>
+    <string name="shelter_area">Shelter area:</string>
+    <string name="Number_of_people_in_the_shelter">Number of people in the shelter:</string>
+    <string name="Comments">Comments</string>
+    <string name="Comments_title">Comments:</string>
+    <string name="published">Published</string>
+    <string name="Enter_a_comments">Enter a comments</string>
+    <string name="You_did_not_write_anything_add_a_comment">You did not write anything, add a comment</string>
+    <string name="Comment_added">Comment added</string>
+    <string name="Password_regular">Password</string>
+    <string name="Distance_shelter">Distance:</string>
+    <string name="the_location_should_enable">The location should be enable</string>
+    <string name="no_shelter">There are no shelter up to 200 meter away</string>
+
+</resources>

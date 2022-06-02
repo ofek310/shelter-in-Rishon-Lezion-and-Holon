@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462284291446",
+    "project_id": "sheltergisproject-ec6a8",
+    "storage_bucket": "sheltergisproject-ec6a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462284291446:android:7852caca44c284d7be8e57",
+        "android_client_info": {
+          "package_name": "com.example.shelterholonandrishonlezion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462284291446-1auveuve0mu988rjidirg4ksuqscqpvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPG5bK67_koXHVZPusNiBjHdQPDX0Ylh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462284291446-1auveuve0mu988rjidirg4ksuqscqpvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
